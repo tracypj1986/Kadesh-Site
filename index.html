@@ -1,48 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Kadesh Co.</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kadesh Co. LLC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Didot', 'Times New Roman', serif;
+      background-color: #ffffff;
+      color: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
 
-<body style="
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, sans-serif;
-  background-color: white;
-">
+    .container {
+      text-align: center;
+    }
 
-  <div style="text-align: center;">
-
-    <h1 style="
+    .logo {
+      font-size: 48px;
       letter-spacing: 8px;
       font-weight: 500;
-    ">
-      KADESH
-    </h1>
+    }
 
-    <p style="
+    .sub {
+      font-size: 14px;
       letter-spacing: 4px;
-      margin-top: -10px;
-      margin-bottom: 30px;
-    ">
-      Set Apart
-    </p>
+      margin-top: 8px;
+      color: #555;
+    }
 
-    <a href="#" style="text-decoration: none;">
-      <div style="
-        border: 1px solid black;
-        padding: 12px 30px;
-        display: inline-block;
-        letter-spacing: 2px;
-      ">
-        SHOP
-      </div>
-    </a>
+    .tagline {
+      margin-top: 40px;
+      font-size: 18px;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+    }
 
+    .btn {
+      margin-top: 40px;
+      display: inline-block;
+      padding: 12px 30px;
+      border: 1px solid #111;
+      text-decoration: none;
+      color: #111;
+      letter-spacing: 3px;
+      font-size: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #111;
+      color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">KADESH</div>
+    <div class="sub"></div>
+    <div class="tagline">Set Apart</div>
+    <a href="#" class="btn">SHOP</a>
   </div>
-
 </body>
 </html>
